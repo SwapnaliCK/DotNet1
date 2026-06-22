@@ -5,7 +5,9 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>DotNet1.HASHTABLEExapmple</StartupObject>
+    <StartupObject>
+		DotNet1.Polymorphism1
+	</StartupObject>
   </PropertyGroup>
 
 </Project>
