@@ -19,21 +19,46 @@ namespace DotNet1
             Console.WriteLine("Payment through Credit Card");
         }
 
-
-        class UPI : Payments
+    }
+    class UPI : Payments
+    {
+        public override void Pay()
         {
-            public override void Pay()
-            {
-                Console.WriteLine("Payment through UPI");
-            }
-
-            static void Main(string[] args)
-            {
-                Payments payment1 = new CreditCard();
-                payment1.Pay();
-                Payments payment2 = new UPI();
-                payment2.Pay();
-            }
+            Console.WriteLine("Payment through UPI");
         }
+    
+     
+       
+    
+        static void Main()
+        {
+
+
+            Payments payment1 = new CreditCard();
+            payment1.Pay();
+            Payments payment2 = new UPI();
+            payment2.Pay();
+
+
+        }
+
+
+
+
+
+
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+

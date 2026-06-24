@@ -26,10 +26,10 @@ namespace DotNet1
         }
         static void Main()
         {
-           Year Month = Year.January;
+           //Year Month = Year.January;
             //Year Month = Year.December;
-            
-            switch (Month)
+            string MontName = " January";
+            switch (MontName)
             {
                 case Year.January:
                     Console.WriteLine(" January Starting Month of Year");

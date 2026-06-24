@@ -6,7 +6,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <StartupObject>
-		DotNet1.Polymorphism1
+		DotNet1.ABC
 	</StartupObject>
   </PropertyGroup>
 
