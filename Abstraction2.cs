@@ -9,7 +9,8 @@ namespace DotNet1
     abstract class Payments
     {
         public abstract void Pay();
-        //extra logic
+        //only decleration
+        
     }
 
     class CreditCard : Payments

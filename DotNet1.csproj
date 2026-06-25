@@ -6,7 +6,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <StartupObject>
-		DotNet1.ABC
+		DotNet1.InterfaceTest
 	</StartupObject>
   </PropertyGroup>
 

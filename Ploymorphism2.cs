@@ -37,6 +37,7 @@ namespace DotNet1
     {
         static void Main()
         {
+            //Parent P = new Child(); //upcasting
             Shape shape1 = new Circle();
             Shape shape2 = new Rectangle();
             shape1.Draw(); // Output: Drawing a circle.
