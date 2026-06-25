@@ -30,7 +30,7 @@ namespace DotNet1
         {
             MathOperations math = new MathOperations();
             math.Add(10, 20);
-            math.Add(10, 20, 30);
+            math.Add(10, 20, 30);////
 
 
             int s = 10;
