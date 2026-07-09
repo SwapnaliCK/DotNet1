@@ -9,11 +9,13 @@ namespace DotNet1
     abstract class Payments
     {
         public abstract void Pay();
-        //extra logic
+        //n number of abstarct methods in a single abstract class
+        //abstarct class can have abstarct and non abstarct methods
     }
 
     class CreditCard : Payments
     {
+        // the n number of abstarct methods that we created that we have to implement here in child class using override keyword
         public override void Pay()
         {
             Console.WriteLine("Payment through Credit Card");

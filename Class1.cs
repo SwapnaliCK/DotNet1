@@ -10,10 +10,10 @@ namespace DotNet1
     {
 
         // Abstract Class
-         class Animal
+        class Animal
         {
-            // Abstract Method
-            public void Sound()
+            
+            public  void Sound()
             {
                 Console.WriteLine("Animal makes a sound");
             }
@@ -50,10 +50,9 @@ namespace DotNet1
             {
                 Dog d = new Dog();
 
-            d.Sound();
-            d.Run();
-               
-                d.Eat();
+                 d.Sound();
+                  d.Run();
+                   d.Eat();
             Console.ReadLine();
 
             }

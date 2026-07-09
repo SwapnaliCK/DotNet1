@@ -6,24 +6,25 @@ using System.Threading.Tasks;
 
 namespace DotNet1
 {
+   enum Year
+    {
+        January,
+        February,
+        March,
+        April,
+        May,
+        June,
+        July,
+        August,
+        September,
+        October,
+        November,
+        December,
+
+    }
     internal class EnuminC_
     {
-        enum Year
-        {
-            January,
-            February,
-            March,
-            April,
-            May,
-            June,
-            July,
-            August,
-            September,
-            October,
-            November,
-            December,
-
-        }
+        
         static void Main()
         {
            Year Month = Year.January;

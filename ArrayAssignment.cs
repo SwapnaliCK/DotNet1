@@ -38,8 +38,8 @@ namespace DotNet1
         Console.WriteLine("\nLargest Number in array:" + maximum);
 
 
-    }
+        }
 
-}
+    }
 
 }

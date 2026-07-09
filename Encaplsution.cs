@@ -15,7 +15,7 @@ namespace DotNet1
         // Public method to set salary
         public void SetSalary(double sal)
         {
-            if (sal > 0)
+            if (sal > 0)    
             {
                 salary = sal;
             }
@@ -26,7 +26,9 @@ namespace DotNet1
         }
 
         // Public method to get salary
+        //
         public double GetSalary()
+         
         {
             return salary;
         }

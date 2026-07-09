@@ -14,33 +14,36 @@ namespace DotNet1
         {
             Console.WriteLine("Drawing a shape.");
         }
-    }
 
-    class Circle : Shape
-    {
-        public override void Draw()
+    }
+        class Circle : Shape
         {
-            Console.WriteLine("Drawing a circle.");
-        }
-    }
 
-    class Rectangle : Shape
-    {
-        public override void Draw()
+            public override void Draw()
+            {
+                Console.WriteLine("Drawing a circle.");
+            }
+        }
+
+
+        class Rectangle : Shape
         {
-            Console.WriteLine("Drawing a rectangle.");
+            public override void Draw()
+            {
+                Console.WriteLine("Drawing a rectangle.");
+            }
         }
-    }
 
 
-    internal class Ploymorphism2
-    {
-        static void Main()
+        internal class Ploymorphism2
         {
-            Shape shape1 = new Circle();
-            Shape shape2 = new Rectangle();
-            shape1.Draw(); // Output: Drawing a circle.
-            shape2.Draw(); // Output: Drawing a rectangle.
+            static void Main()
+            {
+                Shape shape1 = new Circle();
+                Shape shape2 = new Rectangle();
+                shape1.Draw(); // Output: Drawing a circle.
+                shape2.Draw(); // Output: Drawing a rectangle.
+            }
         }
-    }
+    
 }

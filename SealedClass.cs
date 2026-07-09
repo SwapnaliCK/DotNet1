@@ -12,12 +12,17 @@ namespace DotNet1
         {
             Console.WriteLine("Drawing Sizes");
         }
-  
+        public void Painting()
+        {
+            Console.WriteLine("Painting Shapes");
+        }
+
         static void Main()
         {
             Sizes s = new Sizes();
 
             s.Drawing();
+            s.Painting();   
         }
 
     }
