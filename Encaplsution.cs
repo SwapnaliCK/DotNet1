@@ -17,6 +17,7 @@ namespace DotNet1
         {
             if (sal > 0)    
             {
+
                 salary = sal;
             }
             else
@@ -43,6 +44,9 @@ namespace DotNet1
             emp.SetSalary(50000);
 
             Console.WriteLine("Salary: " + emp.GetSalary());
+            //Console.ReadLine(); 
         }
+       
+
     }
 }

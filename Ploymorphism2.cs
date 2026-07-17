@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DotNet1
 {
-    //method overriding: same method name and parameters in base and derived class
+    //method overriding/Runtime: same method name and parameters in base and derived class
     class Shape
     {
         public virtual void Draw()
@@ -19,7 +19,7 @@ namespace DotNet1
         class Circle : Shape
         {
 
-            public override void Draw()
+            public  override void Draw()
             {
                 Console.WriteLine("Drawing a circle.");
             }
@@ -28,7 +28,7 @@ namespace DotNet1
 
         class Rectangle : Shape
         {
-            public override void Draw()
+            public  override void Draw()
             {
                 Console.WriteLine("Drawing a rectangle.");
             }
@@ -37,13 +37,21 @@ namespace DotNet1
 
         internal class Ploymorphism2
         {
-            static void Main()
-            {
-                Shape shape1 = new Circle();
-                Shape shape2 = new Rectangle();
-                shape1.Draw(); // Output: Drawing a circle.
-                shape2.Draw(); // Output: Drawing a rectangle.
-            }
+        static void Main()
+        {
+               Shape shape1 = new Circle();
+               Shape shape2 = new Rectangle();
+            //    shape1.Draw(); // Output: Drawing a circle.
+            //    shape2.Draw(); // Output: Drawing a rectangle.
+            
+
+            //Circle.Draw(); // Output: Drawing a circle.
+
+
+
+
+
         }
+    }
     
 }

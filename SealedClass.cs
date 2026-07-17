@@ -16,14 +16,20 @@ namespace DotNet1
         {
             Console.WriteLine("Painting Shapes");
         }
-
+    }
+        internal class SealedClass
+    {
         static void Main()
         {
             Sizes s = new Sizes();
 
             s.Drawing();
-            s.Painting();   
+            s.Painting();
         }
 
+
     }
+        
+
+    
 }
