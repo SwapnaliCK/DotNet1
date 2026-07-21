@@ -5,7 +5,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>DotNet1.Program</StartupObject>
+    <StartupObject>DotNet1.EnuminC_</StartupObject>
   </PropertyGroup>
 
 </Project>

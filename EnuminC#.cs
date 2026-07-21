@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace DotNet1
 {
-   enum Year
+    enum Year
     {
+
         January,
         February,
         March,
@@ -24,24 +25,30 @@ namespace DotNet1
     }
     internal class EnuminC_
     {
-        
+
         static void Main()
         {
-           Year Month = Year.January;
-            //Year Month = Year.December;
-            
+
+            Console.Write("Enter Month Name : ");
+
+            string Month = Console.ReadLine();
+
+            //Year Month = Year.January;
+            ////Year Month = Year.December;
+
             switch (Month)
             {
-                case Year.January:
+                case "January":
                     Console.WriteLine(" January Starting Month of Year");
                     break;
-                case Year.December:
+                case "December":
                     Console.WriteLine(" December End Month of Year");
                     break;
                 default:
                     Console.WriteLine("Invalid");
                     break;
 
+                    Console.ReadKey();
             }
 
 
